@@ -208,10 +208,12 @@ section {
 }
 
 .tech-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 20px;
+    justify-items: center;
     align-items: center;
+    text-align: center;
 }
 
 .tech-item {
